@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue:#232f3e;
+    --white:#ffffff;
+}
+
+.container{
+
+    --blue:dodgerblue;
+    background-color: var(--blue);
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container .main-box{
+    height: 250px;
+    width:23% ;
+    background-color: rgb(234, 23, 23);
+    margin: 10px 0;
+}
+@media  screen and (max-width:950px) {
+
+    .container .main-box{
+        width: 48%;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container .main-box{
+        width: 99%;
+    }
+    
+}

@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+ .category {
+    display: none;
+
+}
